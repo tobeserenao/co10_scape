@@ -10,20 +10,23 @@ if(daytime > 19 OR daytime < 8) then {
 //Hopefully fixing BIS broken scripts:
 private _AISkill = 0.1;
 switch (A3E_Param_EnemySkill) do {
-	case 0: { _AISkill = 0.1; };
-	case 1: { _AISkill = 0.2; };
-	case 2: { _AISkill = 0.3; };
-	case 3: { _AISkill = 0.4; };
-	case 4: { _AISkill = 0.5; };
+	case 0: { _AISkill = 0.6; };
+	case 1: { _AISkill = 0.7; };
+	case 2: { _AISkill = 0.8; };
+	case 3: { _AISkill = 0.9; };
+	case 4: { _AISkill = 1.0; };
 	default { _AISkill = 0.2; };
 };
-_unit setskill _AISkill;
-_unit setskill ["spotdistance", _AISkill];
-_unit setskill ["aimingaccuracy", _AISkill]; 
-_unit setskill ["aimingshake", _AISkill]; 
-_unit setskill ["spottime", _AISkill];
-_unit setskill ["commanding", _AISkill];
 
+_unit setSkill ["aimingAccuracy", (0.4 + (random 0.2)) * _AISkill];
+_unit setSkill ["aimingShake", (0.4 + (random 0.3)) * _AISkill];
+_unit setSkill ["aimingSpeed", (0.6 + (random 0.2)) * _AISkill];
+_unit setSkill ["commanding", (0.8 + (random 0.2)) * _AISkill];
+_unit setSkill ["courage", (0.5 + (random 0.5)) * _AISkill];
+_unit setSkill ["general", (0.9 + (random 0.1)) * _AISkill];
+_unit setSkill ["reloadSpeed", (0.5 + (random 0.5)) * _AISkill];
+_unit setSkill ["spotDistance", (0.4 + random 0.2) * _AISkill];
+_unit setSkill ["spotTime", (0.7 + random 0.2) * _AISkill];
 
 _unit removeItem "FirstAidKit";
 
