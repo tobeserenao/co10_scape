@@ -1,8 +1,8 @@
 private ["_markerBaseName", "_arrayName", "_markerStartNo"];
 private ["_markerNo", "_markerName", "_i", "_isIcon"];
 
-_markerBaseName = "a3e_village_";
-_arrayName = "a3e_villageMarkers";
+_markerBaseName = "a3e_var_communicationCenter_";
+_arrayName = "a3e_communicationCenterMarkers";
 _markerStartNo = 1;
 
 _markerNo = _markerStartNo;
@@ -21,7 +21,7 @@ while {[_markerName] call drn_fnc_CL_MarkerExists} do {
 		diag_log ("""" + _arrayName + " set [" + str _i + ", [" + str (getMarkerPos _markerName) + ", " + str markerDir _markerName + "]];""");
 	}
 	else {
-		diag_log ("""" + _arrayName + " set [" + str _i + ", [" + str (getMarkerPos _markerName) + ", " + str markerDir _markerName + ", """ + markerShape _markerName + """, " + str markerSize _markerName + ", """ + markerColor _markerName + """]];""");
+		diag_log ("""" + _arrayName + " set [" + str _i + ", [" + str (getMarkerPos _markerName) + ", " + str markerDir _markerName + ", """ + markerShape _markerName + """, " + str markerSize _markerName + "]];""");
 	};
 
 	_markerNo = _markerNo + 1;
@@ -32,4 +32,4 @@ while {[_markerName] call drn_fnc_CL_MarkerExists} do {
 //diag_log ("""" + _arrayName + "Initialized = true;""");
 //diag_log ("""publicVariable """ + _arrayName + "Initialized"";""");
 
-player sideChat (str _i + " village markers generated.");
+player sideChat (str _i + " markers generated.");
