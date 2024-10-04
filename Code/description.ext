@@ -3,7 +3,7 @@
 // Mission Header
 class Header
 {
-  gameType = Escape;
+  gameType = co10esc; //gameType = Escape if not Vietnam CDLC
   minPlayers = 1;
   maxPlayers = 10;
 };
@@ -11,9 +11,9 @@ class Header
 onLoadName = MISSIONNAME;
 onLoadMission = MISSIONNAMEFULL;
 OnLoadMissionTime = FALSE;
-dev = "NeoArmageddon and Scruffy";
+dev = "Captain P. Star and Scruffy";
 briefingName = MISSIONNAMEFULL;
-author = "NeoArmageddon and Scruffy";
+author = "Captain P. Star and Scruffy";
 overviewPicture = "a3\Missions_F_Gamma\data\img\MP_COOP_m03_overview_CA.paa";
 overviewText = MISSIONNAMEFULL;
 loadScreen = "escape_banner.paa"; 
@@ -22,6 +22,7 @@ EscapeIsland = ISLAND;
 EscapeMod = MOD;
 EscapeVersion = VERSION;
 EscapeRelease = RELEASE;
+EscapeBuild = BUILD;
 cba_settings_hasSettingsFile = 1;
 
 class Extended_PreInit_EventHandlers {
@@ -32,7 +33,7 @@ class Extended_PreInit_EventHandlers {
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 Respawn = "INSTANT";
-RespawnDelay = 60;
+RespawnDelay = 5;
 respawnButton = 0;
 
 disabledAI = 1;
@@ -209,7 +210,9 @@ class RscTitles {
 };
 class CfgCommands {
    allowedHTMLLoadURIs[] += {
-      "http://escape.anzp.de/track.php*"
+      "http://escape.anzp.de/track.php*",
+	  "http://co10esc.anzp.de/api*",
+	  "http://localhost:5093/api/session*"
    };
 };
 class CfgLeaflets

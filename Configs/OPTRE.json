@@ -279,6 +279,13 @@
 			"replace" : {},
 			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
 		},
+        {
+			"island" : "Polanek",
+			"sqm": "Polanek",
+			"mod" : "OPTRE Woodland",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
+		},
 		{
 			"island" : "Isla Duala",
 			"sqm": "IslaDuala3",
@@ -350,6 +357,13 @@
 			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
 		},
 		{
+			"island" : "Mutambara",
+			"sqm": "Mutambara",
+			"mod" : "OPTRE Desert",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Desert"
+		},
+		{
 			"island" : "Napf Island",
 			"sqm": "napf",
 			"mod" : "OPTRE Woodland",
@@ -362,6 +376,13 @@
 			"mod" :  "OPTRE Winter",
 			"replace" : {},
 			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Winter"
+		},
+        {
+			"island" : "Niakala",
+			"sqm": "Niakala",
+			"mod" : "OPTRE Tropical",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Tropical"
 		},
 		{
 			"island" : "Nogova",
@@ -539,8 +560,29 @@
 			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Tropical"
 		},
 		{
+			"island" : "Pulau",
+			"sqm": "Pulau",
+			"mod" : "OPTRE Tropical",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Tropical"
+		},
+		{
 			"island" : "Anizay",
 			"sqm": "tem_anizay",
+			"mod" : "OPTRE Desert",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Desert"
+		},
+		{
+			"island" : "Al Salman",
+			"sqm": "Al Salman",
+			"mod" : "OPTRE Desert",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Desert"
+		},
+		{
+			"island" : "Sahatra",
+			"sqm": "Sahatra",
 			"mod" : "OPTRE Desert",
 			"replace" : {},
 			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Desert"
@@ -635,7 +677,21 @@
 			"mod" : "OPTRE Woodland",
 			"replace" : {},
 			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
-		},	
+		},
+		{
+			"island" : "Sumava",
+			"sqm": "Sumava",
+			"mod" : "OPTRE Woodland",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
+		},
+		{
+			"island" : "Maksniemi",
+			"sqm": "Maksniemi",
+			"mod" : "OPTRE Woodland",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
+		},
 		{
 			"island" : "Yellowstone",
 			"sqm": "yellowstone",
@@ -649,6 +705,48 @@
 			"mod" : "OPTRE Desert",
 			"replace" : {},
 			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Desert"
+		},
+		{
+			"island" : "Zagorsk Big Lakes",
+			"sqm": "zagor_zagorsk_biglakes",
+			"mod" : "OPTRE Woodland",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
+		},
+		{
+			"island" : "Lybor",
+			"sqm": "Lybor",
+			"mod" : "OPTRE Woodland",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
+		},
+		{
+			"island" : "Yulakia",
+			"sqm": "Yulakia",
+			"mod" : "OPTRE Woodland",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Woodland"
+		},
+		{
+			"island" : "Fjord",
+			"sqm": "Fjord",
+			"mod" : "OPTRE Winter",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Winter"
+		},
+		{
+			"island" : "Laghisola",
+			"sqm": "Laghisola",
+			"mod" : "OPTRE Tropical",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Tropical"
+		},
+		{
+			"island" : "Mehland",
+			"sqm": "Mehland",
+			"mod" : "OPTRE Tropical",
+			"replace" : {},
+			"name" : "co10_Escape_OPTRE_INNIE_vs_UNSC Tropical"
 		}
 	],
 	"Addons" : [

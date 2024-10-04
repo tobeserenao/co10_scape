@@ -180,6 +180,13 @@
 			"replace" : {},
 			"name" : "co10_Escape_RHS_US_vs_RU"
 		},
+        {
+			"island" : "Polanek",
+			"sqm": "Polanek",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
 		{
 			"island" : "Sefrou-Ramal",
 			"sqm": "Sefrou-Ramal",
@@ -426,6 +433,34 @@
 			"name" : "co10_Escape_RHS_RU_vs_US"
 		},
 		{
+			"island" : "Al Salman",
+			"sqm": "Al Salman",
+			"mod" : "RHS d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Al Salman",
+			"sqm": "Al Salman",
+			"mod" : "RHS-US d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Sahatra",
+			"sqm": "Sahatra",
+			"mod" : "RHS d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Sahatra",
+			"sqm": "Sahatra",
+			"mod" : "RHS-US d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
 			"island" : "Esseker",
 			"sqm": "Esseker",
 			"mod" : "RHS w",
@@ -643,6 +678,20 @@
 			"name" : "co10_Escape_RHS_US_vs_RU"
 		},
 		{
+			"island" : "Pulau",
+			"sqm": "Pulau",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Niakala",
+			"sqm": "Niakala",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
 			"island" : "Altis",
 			"sqm": "Altis",
 			"mod" : "RHS-US w",
@@ -701,6 +750,13 @@
         {
 			"island" : "Gabreta",
 			"sqm": "Gabreta",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+        {
+			"island" : "Polanek",
+			"sqm": "Polanek",
 			"mod" : "RHS-US w",
 			"replace" : {},
 			"name" : "co10_Escape_RHS_RU_vs_US"
@@ -1243,6 +1299,230 @@
 			"mod" : "RHS-HIDF",
 			"replace" : {},
 			"name" : "co10_Escape_RHS_RU_vs_HIDF"
+		},
+		{
+			"island" : "Pulau",
+			"sqm": "Pulau",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Pulau",
+			"sqm": "Pulau",
+			"mod" : "RHS-HIDF",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_HIDF"
+		},
+		{
+			"island" : "Niakala",
+			"sqm": "Niakala",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Niakala",
+			"sqm": "Niakala",
+			"mod" : "RHS-HIDF",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_HIDF"
+		},
+		{
+			"island" : "Mutambara",
+			"sqm": "Mutambara",
+			"mod" : "RHS d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Mutambara",
+			"sqm": "Mutambara",
+			"mod" : "RHS-US d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Mutambara",
+			"sqm": "Mutambara",
+			"mod" : "RHS-HIDF",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_HIDF"
+		},		
+		{
+			"island" : "Sumava",
+			"sqm": "Sumava",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Sumava",
+			"sqm": "Sumava",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Maksniemi",
+			"sqm": "Maksniemi",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Maksniemi",
+			"sqm": "Maksniemi",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Zagorsk Big Lakes",
+			"sqm": "zagor_zagorsk_biglakes",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Zagorsk Big Lakes",
+			"sqm": "zagor_zagorsk_biglakes",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Lybor",
+			"sqm": "Lybor",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Lybor",
+			"sqm": "Lybor",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Kapaulio",
+			"sqm": "Kapaulio",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Kapaulio",
+			"sqm": "Kapaulio",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Kapaulio",
+			"sqm": "Kapaulio",
+			"mod" : "RHS-HIDF",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_HIDF"
+		},
+		{
+			"island" : "IslaPera",
+			"sqm": "IslaPera",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "IslaPera",
+			"sqm": "IslaPera",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "IslaPera",
+			"sqm": "IslaPera",
+			"mod" : "RHS-HIDF",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_HIDF"
+		},
+		{
+			"island" : "Farabad",
+			"sqm": "Farabad",
+			"mod" : "RHS-US d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Farabad",
+			"sqm": "Farabad",
+			"mod" : "RHS-US d",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Farabad",
+			"sqm": "Farabad",
+			"mod" : "RHS-HIDF",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_HIDF"
+		},
+		{
+			"island" : "Fjord",
+			"sqm": "Fjord",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Fjord",
+			"sqm": "Fjord",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Yulakia",
+			"sqm": "Yulakia",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Yulakia",
+			"sqm": "Yulakia",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Laghisola",
+			"sqm": "Laghisola",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
+		},
+		{
+			"island" : "Laghisola",
+			"sqm": "Laghisola",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Mehland",
+			"sqm": "Mehland",
+			"mod" : "RHS w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_US_vs_RU"
+		},
+		{
+			"island" : "Mehland",
+			"sqm": "Mehland",
+			"mod" : "RHS-US w",
+			"replace" : {},
+			"name" : "co10_Escape_RHS_RU_vs_US"
 		}
 	],
 	"Addons" : [

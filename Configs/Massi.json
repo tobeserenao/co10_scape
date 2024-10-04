@@ -142,6 +142,41 @@
 			"mod" : "Massi AFR",
 			"replace" : {},
 			"name" : "co10_Escape_MassiAFR"
+		},
+		{
+			"island" : "Pulau",
+			"sqm": "Pulau",
+			"mod" : "Massi AFR",
+			"replace" : {},
+			"name" : "co10_Escape_MassiAFR"
+		},
+		{
+			"island" : "Mutambara",
+			"sqm": "Mutambara",
+			"mod" : "Massi AFR",
+			"replace" : {},
+			"name" : "co10_Escape_MassiAFR"
+		},
+		{
+			"island" : "Niakala",
+			"sqm": "Niakala",
+			"mod" : "Massi AFR",
+			"replace" : {},
+			"name" : "co10_Escape_MassiAFR"
+		},
+		{
+			"island" : "Al Salman",
+			"sqm": "Al Salman",
+			"mod" : "Massi AFR",
+			"replace" : {},
+			"name" : "co10_Escape_MassiAFR"
+		},
+		{
+			"island" : "Sahatra",
+			"sqm": "Sahatra",
+			"mod" : "Massi AFR",
+			"replace" : {},
+			"name" : "co10_Escape_MassiAFR"
 		}
 	],
 	"Addons" : []

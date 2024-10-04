@@ -10,12 +10,6 @@ sleep 0.5;
 
 [player] remoteExec ["a3e_fnc_initPlayer", 2];
 
-[] spawn {
-	disableSerialization;
-	waitUntil {!isNull(findDisplay 46)};
-	(findDisplay 46) displayAddEventHandler ["keyDown", "_this call a3e_fnc_KeyDown"];
-};
-
 
 AT_Revive_StaticRespawns = [];
 AT_Revive_enableRespawn = false;
@@ -37,7 +31,11 @@ if(hmd player != "") then {
 	private _hmd = hmd player;
 	player unlinkItem _hmd;
 };
-
+if(A3E_DEBUG) then {
+	player allowdamage false;
+	player linkitem "ItemMap";
+	onmapsingleclick "if(_alt) then {player setpos _pos;};";
+};
 player addeventhandler["HandleRating","_this call A3E_FNC_handleRating;"];
 
 player addeventhandler["InventoryClosed","_this call A3E_FNC_collectIntel;"];
@@ -70,6 +68,7 @@ if (isClass(configFile >> "CfgPatches" >> "ACE_Medical")) then {
 	call ATR_FNC_ReviveInit;
 };
 
+call compile preprocessFile "Scripts\AT\dronehack_init.sqf";
 
 setTerrainGrid A3E_Param_Grass;
 
